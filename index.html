@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="eng">
+	<head>
+		<script type="text/javascript" src="script.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<meta charset="utf-8">
+		<title>CALCULATOR!?!?1</title>
+	</head>
+	<body>
+		<div class="calcContainer">
+			<form name="form">
+				<input type="text" class="text" id="text">
+			</form>
+			<table>
+				<tr>
+					<td><input type="button" class="button" onclick="clearTheField()" value="C"></td>
+					<td><input type="button" class="button" onclick="deleteLast()" value="&larr;"></td>
+					<td colspan="2"><input type="button" style="width: 108px;" class="button" onclick="equals()" value="="></td>
+				</tr>
+				<tr>
+					<td><input type="button" class="button" onclick="addNum(7)" value="7"></td>
+					<td><input type="button" class="button" onclick="addNum(8)" value="8"></td>
+					<td><input type="button" class="button" onclick="addNum(9)" value="9"></td>
+					<td><input type="button" class="button" onclick="chooseOp('/')" value="/"></td>
+					
+				</tr>
+				<tr>
+					<td><input type="button" class="button" onclick="addNum(4)" value="4"></td>
+					<td><input type="button" class="button" onclick="addNum(5)" value="5"></td>
+					<td><input type="button" class="button" onclick="addNum(6)" value="6"></td>
+					<td><input type="button" class="button" onclick="chooseOp('x')" value="x"></td>
+				<tr>
+					<td><input type="button" class="button" onclick="addNum(1)" value="1"></td>
+					<td><input type="button" class="button" onclick="addNum(2)" value="2"></td>
+					<td><input type="button" class="button" onclick="addNum(3)" value="3"></td>
+					<td><input type="button" class="button" onclick="chooseOp('-')" value="-"></td>
+					
+				</tr>
+				<tr>
+					<td colspan="2"><input type="button" style="width: 108px;" class="button" onclick="addNum(0)" value="0"></td>
+					<td><input type="button" class="button" onclick="addNum('.')" value="."></td>
+					<td><input type="button" class="button" onclick="chooseOp('+')" value="+"></td>
+					
+				</tr>
+			</table>
+
+		</div>
+
+
+	</body>
+</html>
